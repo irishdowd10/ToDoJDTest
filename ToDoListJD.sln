@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoListJD", "ToDoListJD\ToDoListJD.csproj", "{5FF4595D-F6F5-4679-A87D-BB1191717ACF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1077C155-37A4-4A42-930A-29258627F826}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoListJD.Tests", "ToDoListJD.Tests\ToDoListJD.Tests.csproj", "{664A9F5B-7D96-41E4-A53E-B8441AFA01FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{13D627FF-4AD2-40DD-83F9-370E33D76F04}"
+	ProjectSection(SolutionItems) = preProject
+		Class1.cs = Class1.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FF4595D-F6F5-4679-A87D-BB1191717ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF4595D-F6F5-4679-A87D-BB1191717ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF4595D-F6F5-4679-A87D-BB1191717ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF4595D-F6F5-4679-A87D-BB1191717ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664A9F5B-7D96-41E4-A53E-B8441AFA01FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664A9F5B-7D96-41E4-A53E-B8441AFA01FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664A9F5B-7D96-41E4-A53E-B8441AFA01FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664A9F5B-7D96-41E4-A53E-B8441AFA01FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{664A9F5B-7D96-41E4-A53E-B8441AFA01FC} = {1077C155-37A4-4A42-930A-29258627F826}
+	EndGlobalSection
+EndGlobal
